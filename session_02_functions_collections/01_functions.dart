@@ -46,7 +46,6 @@ void main() {
   // 7) Recursion: a function that calls itself
   // ---------------------------------------------------------
   print('5! = ${factorial(5)}'); // 120
-  print('Fibonacci(8) = ${fibonacci(8)}'); // 21
 
   // ---------------------------------------------------------
   // 8) Scope: variables live only inside their { } block
@@ -116,9 +115,4 @@ bool isEven(int n) => n % 2 == 0;
 int factorial(int n) {
   if (n <= 1) return 1; // base case
   return n * factorial(n - 1); // recursive case
-}
-
-int fibonacci(int n) {
-  if (n <= 1) return n; // base cases: fib(0)=0, fib(1)=1
-  return fibonacci(n - 1) + fibonacci(n - 2);
 }

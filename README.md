@@ -18,15 +18,13 @@
 | 07_lab_task_solution.dart | guessing game + temperature converter | Lab task solution |
 
 ## Session 2: Functions and collections (`session_02_functions_collections/`)
-| File | Topic | Type |
-| --- | --- | --- |
-| 01_functions.dart | parameters (positional, optional, named), defaults, arrow, records, recursion | Theory demo |
-| 02_lambdas_and_closures.dart | functions as values, typedef, closures | Theory demo |
-| 03_collections.dart | List, Set, Map, spread, collection if/for | Theory demo |
-| 04_higher_order_methods.dart | map, where, reduce, fold, any, every, sort, chaining | Theory demo |
-| 05_strings_and_errors.dart | String methods, try/on/catch/finally, throw | Theory demo |
-| 06_guided_lab_todo_manager.dart | console to-do manager | Guided lab |
-| 07_lab_task_grade_book.dart | grade book with averages, top scorer, ranking | Lab task solution |
+| File                         | Topic | Type |
+|------------------------------| --- | --- |
+| 01_functions.dart            | parameters (positional, optional, named), defaults, arrow, records, recursion | Theory demo |
+| 02_collections.dart          | List, Set, Map, spread, collection if/for | Theory demo |
+| 03_higher_order_methods.dart | map, where, reduce, fold, any, every, sort, chaining | Theory demo |
+| 04_strings_and_errors.dart   | String methods, try/on/catch/finally, throw | Theory demo |
+| 05_lab_task_grade_book.dart  | grade book with averages, top scorer, ranking | Lab task solution |
 
 ## Teaching tip
-Files 05 to 07 of session 1 and file 06 of session 2 read input from the keyboard, so run them in a real terminal. Hide the lab task solutions from students until after the session.
+Files 05 to 07 of session 1.

@@ -4,7 +4,7 @@
 // =============================================================
 
 void main() {
-  stringsDemo();
+  // stringsDemo();
   errorHandlingDemo();
 }
 
@@ -28,32 +28,14 @@ void stringsDemo() {
   print('Join           : ${['a', 'b', 'c'].join('-')}'); // list -> string
   print('Pad left       : ${'7'.padLeft(3, '0')}'); // 007
   print('Repeat         : ${'ab' * 3}'); // ababab
-  print('Compare        : ${'apple'.compareTo('banana')}'); // negative
 
   // Strings are immutable: methods return a NEW string
   String original = 'hello';
   String shouted = original.toUpperCase();
   print('Original stays : $original, new one: $shouted');
 
-  // StringBuffer: efficient way to build long strings in loops
-  StringBuffer buffer = StringBuffer();
-  for (int i = 1; i <= 5; i++) {
-    buffer.write('$i ');
-  }
-  print('StringBuffer   : ${buffer.toString().trim()}');
-
-  // Practical example: is it a palindrome?
-  print('"level" palindrome? ${isPalindrome('level')}');
-  print('"Dart" palindrome?  ${isPalindrome('Dart')}');
-
   // Practical example: count the vowels
   print('Vowels in "Mobile Development": ${countVowels('Mobile Development')}');
-}
-
-bool isPalindrome(String word) {
-  String cleaned = word.toLowerCase();
-  String reversed = cleaned.split('').reversed.join(); // string -> chars -> back
-  return cleaned == reversed;
 }
 
 int countVowels(String text) {
