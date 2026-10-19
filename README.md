@@ -1,4 +1,4 @@
-# Dart Labs: Sessions 1 to 3
+# Dart Labs: Sessions 1 to 4
 
 ## Setup
 1. Install the Dart SDK (included with Flutter): https://dart.dev/get-dart
@@ -37,24 +37,15 @@
 | 05_guided_lab_bank_and_student.dart | BankAccount and Student, built step by step | Guided lab |
 | 06_lab_task_library_system.dart | Library system: description + solution | Lab task solution |
 
-[//]: # ()
-[//]: # (## Session 4: OOP part 2 &#40;`session_04_oop_part2/`&#41;)
-
-[//]: # (| File | Topic | Type |)
-
-[//]: # (| --- | --- | --- |)
-
-[//]: # (| 01_inheritance_and_abstract.dart | `extends`, `super`, `@override`, abstract classes, `is`/`as` | Theory demo |)
-
-[//]: # (| 02_interfaces_and_polymorphism.dart | `implements`, polymorphism, fake objects for testing | Theory demo |)
-
-[//]: # (| 03_mixins_extensions_enums.dart | `mixin`/`with`/`on`, extension methods, enhanced enums | Theory demo |)
-
-[//]: # (| 04_generics_and_async_preview.dart | generic classes and functions, bounded types, Future, Stream | Theory demo |)
-
-[//]: # (| 05_guided_lab_shapes.dart | Shape hierarchy with a Printable mixin | Guided lab |)
-
-[//]: # (| 06_lab_task_mini_ecommerce.dart | Mini e-commerce: description + solution | Lab task solution |)
+## Session 4: OOP part 2 (`session_04_oop_part2/`)
+| File | Topic | Type |
+| --- | --- | --- |
+| 01_inheritance_and_abstract.dart | `extends`, `super`, `@override`, abstract classes, `is`/`as` | Theory demo |
+| 02_interfaces_and_polymorphism.dart | `implements`, polymorphism, fake objects for testing | Theory demo |
+| 03_mixins_extensions_enums.dart | `mixin`/`with`/`on`, extension methods, enhanced enums | Theory demo |
+| 04_generics_and_async_preview.dart | generic classes and functions, bounded types, Future, Stream | Theory demo |
+| 05_guided_lab_shapes.dart | Shape hierarchy with a Printable mixin | Guided lab |
+| 06_lab_task_mini_ecommerce.dart | Mini e-commerce: description + solution | Lab task solution |
 
 ## Practice tasks (`practice_tasks/`)
 Extra tasks with description and solution for Sessions 1 and 2: cinema ticket booth and expense tracker.
